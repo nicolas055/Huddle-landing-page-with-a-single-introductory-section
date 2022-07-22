@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/bg-desktop.svg');
+    background-color: #674BB1;
+}
+header {
+    display: flex;
+    max-width: 1180px;
+    height: 150px;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+header img {
+    width: 230px;
+}
+
+main {
+    display: flex;
+    max-width: 1180px;
+    margin: auto;
+}
+main .ilustration-mockups img {
+    width: 650px;
+}
+
+main .cta-text {
+    margin-left: 50px;
+    color: #FFF;
+}
+main .cta-text h1 {
+    text-transform: capitalize;
+    font-size: 39px;
+    line-height: 55px;
+    font-family: 'Roboto', sans-serif;
+}
+main .cta-text p {
+    font-family:  sans-serif;
+    color: rgb(230, 218, 218);
+    line-height: 24px;
+}
+main .cta-text .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-decoration: none;
+    width: 170px;
+    height: 47px;
+    background-color: #E980E7;
+    border-radius: 150px;
+    border: solid 1px #642E86;
+    transition: 0.2s;
+    font-family: sans-serif;
+}
+main .cta-text .button:hover {
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.548);
+
+}

@@ -11,14 +11,14 @@ body {
 header {
     display: flex;
     max-width: 1180px;
-    height: 150px;
+    height: 120px;
     justify-content: flex-start;
     align-items: center;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 header img {
-    width: 230px;
+    width: 200px;
 }
 
 main {
@@ -55,11 +55,47 @@ main .cta-text .button {
     height: 47px;
     background-color: #E980E7;
     border-radius: 150px;
-    border: solid 1px #642E86;
+    border: solid 1px #6b3f86;
     transition: 0.2s;
     font-family: sans-serif;
 }
 main .cta-text .button:hover {
     box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.548);
 
+}
+
+.social-medias {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+.social-medias a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: solid 1px #FFF;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.social-medias a,
+.social-medias img {
+    transition: 0.2s;
+}
+.social-medias a:hover {
+    border: 1px solid #FF52C4;
+}
+
+.social-medias a:hover img {
+    filter: invert(44%) sepia(66%) saturate(1281%) hue-rotate(293deg) brightness(102%) contrast(101%);
+}
+.social-medias .facebook-icon img {
+    height: 20px;
+}
+.social-medias .twitter-icon img {
+    width: 20px;
+}
+.social-medias .instagram-icon img {
+    width: 20px;
 }

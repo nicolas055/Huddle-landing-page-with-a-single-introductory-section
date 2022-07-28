@@ -6,8 +6,13 @@
 
 body {
     background-image: url('../images/bg-desktop.svg');
+    background-size: cover;
     background-color: #674BB1;
     margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 header {
     display: flex;
@@ -22,7 +27,6 @@ main {
     display: flex;
     max-width: 1180px;
     margin: auto;
-    height: calc(100vh);
     flex-direction: column;
     justify-content: stretch;
 }
@@ -75,9 +79,6 @@ main .cta-text .button:hover {
 .social-medias {
     display: flex;
     justify-content: flex-end;
-    align-self: flex-end;
-    align-items: center;
-    height: 100%;
 }
 .social-medias a {
     display: flex;
@@ -136,6 +137,9 @@ main .cta-text .button:hover {
 
  /*Tablet*/ 
 @media (min-width: 426px) and (max-width: 768px) {
+    body {
+        background-image: url('../images/bg-mobile.svg');
+    }
     header {
         min-width: 60%;
         margin: auto;
@@ -179,6 +183,11 @@ main .cta-text .button:hover {
 
  /*Phone*/
  @media (max-width: 425px) {
+    body {
+        background-image: url('../images/bg-mobile.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
     header {
         justify-content: center;
         min-height: 80px;

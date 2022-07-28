@@ -63,9 +63,10 @@ main .cta-text .button {
     border: solid 1px #6b3f86;
     transition: 0.2s;
     font-family: sans-serif;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.548);
 }
 main .cta-text .button:hover {
-    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.548);
+
     background-color: #E980E7;
     color: #FFF;
 

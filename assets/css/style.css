@@ -113,7 +113,7 @@ main .cta-text .button:hover {
 
 
 
-/*responsiveness*/
+/*Responsiveness*/
 @media (min-width: 769px) and (max-width: 1250px) {
     main {
         max-width: 850px;
@@ -176,7 +176,7 @@ main .cta-text .button:hover {
     }
 }
 
- /*Celular*/
+ /*Phone*/
  @media (max-width: 425px) {
     header {
         justify-content: center;
